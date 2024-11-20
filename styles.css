@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  height: 100dvh;
+  font-family: Roboto, Arial, sans-serif;
+}
+.post {
+  width: 560px;
+  border: none;
+  background-color: white;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.icon,
+.menu {
+  display: flex;
+  align-items: center;
+}
+.post-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.post-content p {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.menu {
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.post-header i {
+  font-size: 36px;
+  margin: 5px 10px;
+}
+.post-header i,
+.post-icons i {
+  font-size: 30px;
+  margin: 5px 5px;
+  text-align: center;
+}
+.post-img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.post-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.fa-regular.fa-heart {
+  margin-left: 15px;
+}
+.post-likes p {
+  margin-inline-start: 15px;
+  margin-inline-end: 10px;
+  margin-block-end: 10px;
+}
+.post-paragraph p {
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.fa-regular.fa-bookmark {
+  margin-left: auto;
+  margin-right: 15px;
+}
